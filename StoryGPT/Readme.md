@@ -1,15 +1,15 @@
 # StoryGPT
-The story_gpt.py script contains an implementation of a collaborative story generator using a multi-agent system. Let me explain the key aspects of this implementation in more detail.
+The `story_gpt.py` script contains an implementation of a collaborative story generator using a multi-agent system. Let me explain the key aspects of this implementation in more detail.
 Agents
 The script defines three agents:
 
-* TrackableUserProxyAgent: This agent represents the human user who provides the initial story prompt and receives the collaboratively generated story.
-* TrackableAssistantAgent: This agent, named "JK", is responsible for generating suspenseful and atmospheric thriller story paragraphs.
-* TrackableAssistantAgent: This agent, named "RRM", is responsible for generating fast-paced and action-packed story paragraphs that build on the previous paragraphs.
+- TrackableUserProxyAgent: This agent represents the human user who provides the initial story prompt and receives the collaboratively generated story.
+- TrackableAssistantAgent: This agent, named "JK", is responsible for generating suspenseful and atmospheric thriller story paragraphs.
+- TrackableAssistantAgent: This agent, named "RRM", is responsible for generating fast-paced and action-packed story paragraphs that build on the previous paragraphs.
 
 Each agent has a specific system message that defines its role and writing style within the collaborative story generation process.
 Configuration
-The script sets up two LLM configurations, one for the "mistral" model and one for the "llama2:13b" model. These configurations are used to initialize the language models for the respective agents.
+The script sets up two LLM configurations, one for the `mistral` model and one for the `llama2:13b` model. These configurations are used to initialize the language models for the respective agents.
 Streamlit Interface
 The script uses the Streamlit library to create a user-friendly web interface for the story generation process. Users can enter a story prompt, and the collaborative story is displayed as it is generated.
 Story Generation
