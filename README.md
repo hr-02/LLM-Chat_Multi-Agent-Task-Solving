@@ -1,15 +1,15 @@
-## LLM-Chat Multi-Agent Task Solving
-# Overview
+# LLM-Chat Multi-Agent Task Solving
+## Overview
 This repository contains two key projects:
 
-# Academic Research Assistant:
+### Academic Research Assistant:
 
 An intelligent multi-agent system that helps researchers search, analyze, explain, and summarize academic papers using Large Language Models (LLMs).
 Features include paper search, vector-based storage and retrieval, question answering, figure/table explanation, summarization, and future research direction generation.
 Provides an interactive Streamlit-based user interface for browsing and interacting with the system.
 
 
-# Collaborative Story Generator:
+### Collaborative Story Generator:
 
 A multi-agent system that generates short stories through a collaborative writing process.
 Two specialized assistant agents take turns adding new paragraphs to the evolving narrative, building on each other's contributions.
