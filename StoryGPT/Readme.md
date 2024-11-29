@@ -13,7 +13,7 @@ The script sets up two LLM configurations, one for the `mistral` model and one f
 Streamlit Interface
 The script uses the Streamlit library to create a user-friendly web interface for the story generation process. Users can enter a story prompt, and the collaborative story is displayed as it is generated.
 Story Generation
-The story generation is managed by the GroupChat and GroupChatManager classes from the autogen library. The agents take turns generating story paragraphs, building on the previous ones, until the maximum number of rounds is reached.
+The story generation is managed by the `GroupChat` and `GroupChatManager` classes from the autogen library. The agents take turns generating story paragraphs, building on the previous ones, until the maximum number of rounds is reached.
 To use the story generator:
 ```
 # Ensure you have Python and the required dependencies installed.
