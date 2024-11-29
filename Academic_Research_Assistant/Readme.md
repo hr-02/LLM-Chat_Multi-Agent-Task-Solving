@@ -1,6 +1,6 @@
 # Academic-Research-Assistant
 
-An intelligent multi-agent system that helps researchers search, analyze, explain and summarize academic papers using Large Language Models (LLMs). The application provides multi-agent capabilities for paper search, multiple pdf handling with question answering, summarization, and future research direction generation.
+An intelligent RAG-based multi-agent system that helps researchers search, analyze, explain and summarize academic papers using Large Language Models (LLMs). The application provides multi-agent capabilities for paper search, multiple pdf handling with question answering, summarization, and future research direction generation.
 
 [Watch the Project Demonstration on YouTube](https://youtu.be/H2j2od2Dx34)
 
