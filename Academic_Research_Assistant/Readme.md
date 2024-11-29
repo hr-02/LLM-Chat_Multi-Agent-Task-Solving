@@ -32,42 +32,6 @@ The application uses a multi-agent system with the following components:
 - **Document Processing**: LangChain
 - **PDF Processing**: PDFMiner
 
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/academic-research-assistant.git
-cd research-paper-assistant
-```
-
-2. Create and activate a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-4. Set up environment variables:
-```bash
-# Create .env file
-GOOGLE_API_KEY=your_gemini_api_key
-```
-
-## Local Ollama Implementation
-
-In addition to the main multi-agent system, the project also includes a local Ollama implementation within the `local_implement_ollama` folder. This local implementation provides the following capabilities:
-
-### Local Application
-The `app_ollama.py` file is a modified version of the main Streamlit application, specifically designed for the local Ollama implementation.
-
-### Local Configuration
-The `config.py` file within the `local_implement_ollama` folder contains settings and configurations specific to the local Ollama deployment.
-
-Other files are also modified accordingly to run locally.
 
 
 ### Running the Local Ollama Implementation
@@ -86,7 +50,10 @@ ollama pull qwen2.5  # or replace llama2 with your desired model
 # Step 4: Verify installed models
 ollama models
 
-# Step 5: Run Streamlit app
+# Step 5: Install requirements.txt
+pip install - r requirements.txt
+
+# Step 6: Run Streamlit app
 streamlit run local_implement_ollama/app_ollama.py
 ```
 
