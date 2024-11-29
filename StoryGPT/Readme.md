@@ -21,3 +21,6 @@ pip install -r requirements.txt
 # Run story_gpt.py to initiate the story generation process.
 streamlit run story_gpt.py
 # Enter a story prompt in the Streamlit interface.
+
+See sample results in `Results/Story_extension.pdf`
+
